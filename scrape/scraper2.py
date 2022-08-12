@@ -95,13 +95,13 @@ def send_message_Telegram(Link_affiliato, vecchio_prezzo, nuovo_prezzo, percentu
 #	driver = Chrome(service=Service(chrome_driver))
 
 #	token  = '5367203183:AAGazC_CBHZVJla6B9NuMLV3EyoeVPJ7LV4'
-	chat = '-1001692589997'	
+#	chat = ''	
 #	URL_mess = 'https://api.telegram.org/bot' + token + '/sendMessage?chat_id=@asasasassssssssssssss&text='  + Link_affiliato
 #	driver.get(URL_mess)
 
 
 
-#	bot = telebot.TeleBot('5367203183:AAGazC_CBHZVJla6B9NuMLV3EyoeVPJ7LV4')
+#	bot = telebot.TeleBot('TOKEN')
 
 
 #	bot.send_message(message.channel.id, 'ciao')
@@ -113,10 +113,10 @@ def send_message_Telegram(Link_affiliato, vecchio_prezzo, nuovo_prezzo, percentu
 	con_vecchio_prezzo = str(vecchio_prezzo)
 	con_nuovo_prezzo = str(nuovo_prezzo)
 
-	bot = telegram.Bot('5367203183:AAGazC_CBHZVJla6B9NuMLV3EyoeVPJ7LV4')
+	bot = telegram.Bot('TOKEN')
 
 	testo_lungo =  '\n' + titolo.strip() + '\n' + '\n' + "<b>PASSA DA " + con_vecchio_prezzo + "€ A SOLI " + con_nuovo_prezzo + '€ </b>'+ random.choice(emoji) + '\n' +  " <a href ='" + Link_affiliato + "'><b>👉clicca qui👈</b></a>"
-	bot.send_message(text=testo_lungo, chat_id = '@asasasassssssssssssss', parse_mode=telegram.ParseMode.HTML )
+	bot.send_message(text=testo_lungo, chat_id = '@TELEGRAM_CHANNEL', parse_mode=telegram.ParseMode.HTML )
 
 	print("messaggio inviato...")
 
