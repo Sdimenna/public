@@ -1,0 +1,4 @@
+pytube
+youtube-search-python
+requests
+pyTelegramBotAPI
