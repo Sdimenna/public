@@ -4,7 +4,7 @@ from telebot import types
 from amazon_affiliate_url import AmazonAffiliateUrl, Country
 
 
-bot = telebot.TeleBot('5367203183:AAGazC_CBHZVJla6B9NuMLV3EyoeVPJ7LV4')
+bot = telebot.TeleBot('TOKEN')
 
 @bot.message_handler(commands=['start'])
 
