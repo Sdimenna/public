@@ -7,11 +7,11 @@ from os import listdir
 from os.path import isfile, join
 
 
-bot = TeleBot("5573307606:AAEmTPPiMY_bHjP7dOjIdk1YS8bFCTHM8gY")
+bot = TeleBot("TOKEN")
 titles = ""
 search = ""
 chat_id= ""
-destination = "Z:/programminoSiro/python/eserciziPy/youtubeDownload/DownloadMusica"
+destination = "{DESTINATION}"
 
 @bot.message_handler(commands=['start'])
 
