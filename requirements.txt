@@ -1,5 +1,0 @@
-python-time
-bs4
-amazon_affiliate_url
-requests
-python-telegram-bot
