@@ -14,7 +14,7 @@ face, gray = fr.faceDetection(test_image)
 faceRecognizer = cv2.face.LBPHFaceRecognizer_create()
 faceRecognizer.read(r"C:\Users\Siro\Desktop\python\IA\trainedData.yml")
 
-name = {0: "brad Pitt", 1: "Di Caprio", 2: "elon", 3: "Alicius", 4: "Siro"}
+name = {0: "brad Pitt", 1: "Di Caprio", 2: "elon"}
 
 for face in face:
     (x, y, w, h) = face
