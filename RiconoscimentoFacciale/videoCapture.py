@@ -6,7 +6,7 @@ import facciaRiconoscimentoAI as fr
 faceRecognizer = cv2.face.LBPHFaceRecognizer_create()
 faceRecognizer.read(r"C:\Users\Siro\Desktop\python\IA\trainedData.yml")
 
-name = {0: "brad Pitt", 1: "Di Caprio", 2: "elon", 3: "Alicius", 4: "ciruzzo", 5: "Ian"}
+name = {0: "brad Pitt", 1: "Di Caprio", 2: "elon"}
 
 capture = cv2.VideoCapture(0)
 while True:
